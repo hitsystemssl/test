@@ -27,5 +27,5 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: zip -r backupTocGame.zip /home/hit/tocGame/
+      - name: Crear backup tocGame
+        run: zip -r /home/hit/backupTocGame.zip /home/hit/tocGame/
