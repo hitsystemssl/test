@@ -28,10 +28,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cd /home/hit && ls
+        run: apt install zip unzip -y
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |
+        run: zip -r backupTocGame.zip /home/hit/tocGame/
           echo Add other actions to build,
           echo test, and deploy your project.
